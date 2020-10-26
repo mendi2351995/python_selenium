@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46fe9482-f953-4ce1-a73b-cb22444c6cc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tests/test_Home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_Home_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="46fe9482-f953-4ce1-a73b-cb22444c6cc1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
                 <marker date="1603741258363" expanded="true" signature="208:646" ph="..." />
               </folding>
@@ -391,7 +389,7 @@
     <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <marker date="1603741258363" expanded="true" signature="208:646" ph="..." />
           </folding>
