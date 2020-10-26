@@ -20,3 +20,8 @@ class Test_HomePage(BaseTest):
     def test_check_clickButton_Go(self):
         self.homePage = HomePage(self.driver)
         self.homePage.do_clickOnButton()
+
+    @pytest.mark.Go
+    def test_check_clickButton(self):
+        self.homePage = HomePage(self.driver)
+        self.homePage.do_clickOnButton()
