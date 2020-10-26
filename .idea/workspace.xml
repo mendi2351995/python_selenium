@@ -43,9 +43,9 @@
         <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
-                <marker date="1603740769562" expanded="true" signature="208:646" ph="..." />
+                <marker date="1603741258363" expanded="true" signature="208:646" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,6 +130,12 @@
               <item name="basic_project_automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic_project_automation" type="462c0819:PsiDirectoryNode" />
               <item name="python_selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic_project_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic_project_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="python_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic_project_automation" type="b2602c69:ProjectViewProjectNode" />
@@ -261,8 +267,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.configtest" />
-      <item itemvalue="Python tests.pytest in bin" />
       <item itemvalue="Python tests.pytest for Tests.test_Home_page" />
+      <item itemvalue="Python tests.pytest in bin" />
       <item itemvalue="Python tests.pytest in test_Home_page.py" />
     </list>
     <recent_temporary>
@@ -341,19 +347,9 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/Login_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_Login_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/_pytest/mark/structures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="482" column="8" selection-start-line="482" selection-start-column="8" selection-end-line="482" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Login_page.py" />
+    <entry file="file://$PROJECT_DIR$/tests/test_Login_page.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/_pytest/mark/structures.py" />
     <entry file="file://$PROJECT_DIR$/Config/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -395,9 +391,9 @@
     <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
-            <marker date="1603740769562" expanded="true" signature="208:646" ph="..." />
+            <marker date="1603741258363" expanded="true" signature="208:646" ph="..." />
           </folding>
         </state>
       </provider>
