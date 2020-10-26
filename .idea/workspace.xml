@@ -160,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in bin (1)">
+  <component name="RunManager" selected="Python.configtest">
     <configuration name="configtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basic_project_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,9 +259,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.configtest" />
-      <item itemvalue="Python tests.pytest in bin (1)" />
       <item itemvalue="Python tests.pytest in bin" />
-      <item itemvalue="Python tests.pytest for Tests.test_Home_page" />
       <item itemvalue="Python tests.pytest for Tests.test_Home_page" />
       <item itemvalue="Python tests.pytest in test_Home_page.py" />
     </list>
