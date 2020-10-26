@@ -259,8 +259,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.configtest" />
-      <item itemvalue="Python tests.pytest in bin" />
       <item itemvalue="Python tests.pytest for Tests.test_Home_page" />
+      <item itemvalue="Python tests.pytest in bin" />
       <item itemvalue="Python tests.pytest in test_Home_page.py" />
     </list>
     <recent_temporary>
