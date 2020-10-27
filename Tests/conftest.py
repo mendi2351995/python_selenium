@@ -13,5 +13,5 @@ def init_driver(request):
     request.cls.driver = web_driver
     #web_driver.implicitly_wait(15)
     yield
-    # sleep(9.0)
+    sleep(9.0)
     web_driver.close()
