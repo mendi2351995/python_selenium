@@ -40,11 +40,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="408">
               <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <marker date="1603803842755" expanded="true" signature="208:646" ph="..." />
+=======
+            <state relative-caret-position="243">
+              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <marker date="1603742934989" expanded="true" signature="208:646" ph="..." />
+>>>>>>> 1e18f13b425898ce867f614a9816518753df883b
               </folding>
             </state>
           </provider>
@@ -128,6 +135,20 @@
             <path>
               <item name="basic_project_automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic_project_automation" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="python_selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic_project_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic_project_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="python_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic_project_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic_project_automation" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 1e18f13b425898ce867f614a9816518753df883b
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,6 +371,7 @@
     <entry file="file://$PROJECT_DIR$/tests/test_Login_page.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/_pytest/mark/structures.py" />
     <entry file="file://$PROJECT_DIR$/Config/config.py">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
@@ -366,6 +388,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
+=======
+>>>>>>> 1e18f13b425898ce867f614a9816518753df883b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -406,10 +430,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="141">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <marker date="1603905233635" expanded="true" signature="443:700" ph="..." />
+=======
+        <state relative-caret-position="243">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <marker date="1603742934989" expanded="true" signature="208:646" ph="..." />
+>>>>>>> 1e18f13b425898ce867f614a9816518753df883b
           </folding>
         </state>
       </provider>
