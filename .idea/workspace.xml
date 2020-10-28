@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46fe9482-f953-4ce1-a73b-cb22444c6cc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_selenium" beforeDir="false" />
-    </list>
+    <list default="true" id="46fe9482-f953-4ce1-a73b-cb22444c6cc1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +63,9 @@
         <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1603905061909" expanded="true" signature="443:700" ph="..." />
+                <marker date="1603905233635" expanded="true" signature="443:700" ph="..." />
               </folding>
             </state>
           </provider>
@@ -327,10 +321,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13739266" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13739266" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -338,7 +331,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -414,9 +407,9 @@
     <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <marker date="1603905061909" expanded="true" signature="443:700" ph="..." />
+            <marker date="1603905233635" expanded="true" signature="443:700" ph="..." />
           </folding>
         </state>
       </provider>
