@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="46fe9482-f953-4ce1-a73b-cb22444c6cc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HomePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_selenium" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +26,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test_basePage.py">
+        <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/test_basePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -43,10 +46,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
-                <marker date="1603802416504" expanded="true" signature="208:646" ph="..." />
+                <element signature="e#0#22#0" expanded="true" />
+                <marker date="1603803842755" expanded="true" signature="208:646" ph="..." />
               </folding>
             </state>
           </provider>
@@ -55,19 +59,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="141">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
-                <marker date="1603708793333" expanded="true" signature="248:505" ph="..." />
+                <marker date="1603905061909" expanded="true" signature="443:700" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,11 +103,11 @@
         <option value="$PROJECT_DIR$/pages/BasePage.py" />
         <option value="$PROJECT_DIR$/pages/HomePage.py" />
         <option value="$PROJECT_DIR$/Config/config.py" />
-        <option value="$PROJECT_DIR$/Pages/BasePage.py" />
         <option value="$PROJECT_DIR$/Tests/test_basePage.py" />
-        <option value="$PROJECT_DIR$/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/Tests/test_Home_page.py" />
+        <option value="$PROJECT_DIR$/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/Tests/conftest.py" />
+        <option value="$PROJECT_DIR$/Pages/BasePage.py" />
       </list>
     </option>
   </component>
@@ -279,37 +283,45 @@
       <option name="presentableId" value="Default" />
       <updated>1603633428920</updated>
     </task>
+    <task id="LOCAL-00001" summary="mmm">
+      <created>1603802620138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603802620143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_bin - 2020.10.26 at 16h 35m 22s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 43m 46s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.26 at 16h 36m 30s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 44m 26s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.26 at 16h 37m 29s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 45m 26s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.26 at 16h 37m 58s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 46m 20s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.26 at 16h 40m 06s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 47m 26s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.26 at 16h 40m 46s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 49m 53s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.26 at 16h 41m 47s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 55m 19s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 38m 45s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 15h 02m 54s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 40m 21s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 15h 03m 32s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_bin - 2020.10.27 at 14h 41m 08s.xml">
+    <history-entry file="pytest_in_bin - 2020.10.27 at 15h 25m 59s.xml">
       <configuration name="pytest in bin" configurationId="tests" />
     </history-entry>
   </component>
@@ -318,7 +330,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13739266" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -336,27 +348,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mmm" />
+    <option name="LAST_COMMIT_MESSAGE" value="mmm" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/Login_page.py" />
     <entry file="file://$PROJECT_DIR$/tests/test_Login_page.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/_pytest/mark/structures.py" />
-    <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1603708793333" expanded="true" signature="248:505" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Config/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -364,27 +363,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_basePage.py">
+    <entry file="file://$PROJECT_DIR$/python_selenium/Tests/test_Home_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="-131">
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
+    <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <marker date="1603802416504" expanded="true" signature="208:646" ph="..." />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_Home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1603803842755" expanded="true" signature="208:646" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-947">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <marker date="1603905061909" expanded="true" signature="443:700" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
