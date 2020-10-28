@@ -27,4 +27,5 @@ class BasePage:
                                                  ElementNotVisibleException,
                                                  ElementNotSelectableException])
         btn_search = wait.until(EC.element_to_be_clickable(by_locator)
+        # return by_locator
         btn_search.click()
