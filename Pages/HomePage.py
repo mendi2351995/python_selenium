@@ -16,3 +16,6 @@ class HomePage(BasePage):
 
     def do_clickOnButton(self):
         self.do_click(self.BUTTON_GO)
+
+    def click_on_element_with_wait(self):
+        self.fluentWait_click(self.BUTTON_GO)

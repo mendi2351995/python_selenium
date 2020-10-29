@@ -1,13 +1,14 @@
 from selenium.webdriver import ActionChains
-
-
+from selenium.webdriver.remote.webelement import WebElement
+import time
 '''imports stof for  function flouentWait: start'''
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-        '''end imports'''
+'''end imports'''
 class BasePage:
     def __init__(self,driver):
         self.driver = driver
@@ -21,11 +22,25 @@ class BasePage:
         return self.driver.title
 
 
-    def fluentWait(self,by_locator):
-        wait = WebDriverWait(driver, 10, poll_frequency=3,
+    def fluentWait_click(self,by_locator):
+        wait = WebDriverWait(self.driver, 10, poll_frequency=3,
                              ignored_exceptions=[NoSuchElementException,
                                                  ElementNotVisibleException,
                                                  ElementNotSelectableException])
-        btn_search = wait.until(EC.element_to_be_clickable(by_locator)
-        # return by_locator
+        btn_search = wait.until(EC.element_to_be_clickable(by_locator))
         btn_search.click()
+
+#   Receives only element and not by
+    def wait_for_element_to_vanish(self,by_locator: WebElement)-> bool:
+        is_displaye = by_locator.is_displayed()
+        start_time = self.get_current_time_in_millis()
+        time_interval_in_seconds = 5
+        while is_displaye and not self.is_time_out(start_time,time_interval_in_seconds):
+            is_displaye = by_locator.is_displayed()
+        return not is_displaye
+    def is_time_out(self,start_time_millis: int,waiting_interval_seconds: int)-> bool:
+        end_time = start_time_millis + waiting_interval_seconds * 1000
+        return self.get_current_time_in_millis() > end_time
+    def get_current_time_in_millis(self)-> int:
+        return int(time.time() * 1000)
+

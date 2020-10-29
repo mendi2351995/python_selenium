@@ -4,7 +4,7 @@ import pytest
 from Tests.test_basePage import BaseTest
 from Pages.HomePage import HomePage
 from Config.config import TestData
-
+from Pages.BasePage import BasePage
 
 
 class Test_HomePage(BaseTest):
@@ -19,9 +19,4 @@ class Test_HomePage(BaseTest):
     @pytest.mark.Go
     def test_check_clickButton_Go(self):
         self.homePage = HomePage(self.driver)
-        self.homePage.do_clickOnButton()
-
-    @pytest.mark.santy
-    def test_check_clickButton(self):
-        self.homePage = HomePage(self.driver)
-        self.homePage.do_clickOnButton()
+        self.homePage.do_clickOnButton(self.homePage.BUTTON_GO)
