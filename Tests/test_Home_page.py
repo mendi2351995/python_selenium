@@ -19,4 +19,4 @@ class Test_HomePage(BaseTest):
     @pytest.mark.Go
     def test_check_clickButton_Go(self):
         self.homePage = HomePage(self.driver)
-        self.homePage.do_clickOnButton(self.homePage.BUTTON_GO)
+        self.homePage.do_clickOnButton()
