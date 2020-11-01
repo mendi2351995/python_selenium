@@ -25,3 +25,6 @@ class Test_HomePage(BaseTest):
         self.homePage = HomePage(self.driver)
         # self.homePage.click_on_dropDwon()
         self.homePage.aa()
+
+    def newtest(self):
+        pass
