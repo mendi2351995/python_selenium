@@ -44,3 +44,11 @@ class BasePage:
     def get_current_time_in_millis(self)-> int:
         return int(time.time() * 1000)
 
+    def multiselect_set_selections(self,element, labels):
+        # element = self.driver.find_element_by_xpath(element)
+        for option in element.find_elements_by_tag_name('option'):
+            print(option.text)
+            if option.text in labels:
+                print(option.text, " clickkkkk")
+                option.click()
+

@@ -20,3 +20,8 @@ class Test_HomePage(BaseTest):
     def test_check_clickButton_Go(self):
         self.homePage = HomePage(self.driver)
         self.homePage.do_clickOnButton()
+
+    def test_drop_down(self):
+        self.homePage = HomePage(self.driver)
+        # self.homePage.click_on_dropDwon()
+        self.homePage.aa()
