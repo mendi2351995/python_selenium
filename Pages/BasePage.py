@@ -76,3 +76,14 @@ class BasePage:
         alert = self.driver.switch_to.alert
         alert.send_keys()
         self.switch_to_default_content(text)
+
+    def screenshoth_to_report(self):
+        testName = environment.whoami()
+        screenshotName = testName + "_screenshot_" + currTime
+        # save screenshot in allure
+        allure.attach(driver.get_screenshot_as_png(), name=screenshotName,
+                      attachment_type=allure.attachment_type.PNG)
+        # to get the file on specific path
+        driver.get_screenshot_as_file(
+            "C:/Users/jorge/Desktop/Work/Code/Mine/Python/PythonAutomationFramework/screenshots/" +
+            screenshotName + ".png")
