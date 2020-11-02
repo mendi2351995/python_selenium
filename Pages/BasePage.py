@@ -52,7 +52,7 @@ class BasePage:
                 print(option.text, " clickkkkk")
                 option.click()
 
-def select_value_on_DropDwon(self,drop_list,value):
+    def select_value_on_DropDwon(self,drop_list,value):
         for ele in drop_list:
             for k in range(len(drop_list)):
                 if ele.text == value[k]:
