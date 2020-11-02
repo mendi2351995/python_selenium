@@ -1,6 +1,8 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.remote.webelement import WebElement
 import time
+from datetime import date
+from datetime import datetime
 '''imports stof for  function flouentWait: start'''
 
 from selenium import webdriver
@@ -76,3 +78,8 @@ class BasePage:
         alert = self.driver.switch_to.alert
         alert.send_keys()
         self.switch_to_default_content(text)
+
+    def Screenshot(self):
+        now = datetime.now()
+        dt_string = now.strftime("%d%m%y_%H%M%S")
+        self.driver.get_screenshot_as_file(dt_string+".png")
