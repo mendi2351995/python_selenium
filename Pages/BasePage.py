@@ -52,9 +52,27 @@ class BasePage:
                 print(option.text, " clickkkkk")
                 option.click()
 
-    def select_value_on_DropDwon(self,drop_list,value):
+def select_value_on_DropDwon(self,drop_list,value):
         for ele in drop_list:
             for k in range(len(drop_list)):
                 if ele.text == value[k]:
                     ele.click()
                     break
+                  
+    def popUp_Alert_text(self):
+        alert = self.driver.switch_to.alert
+        t = alert.text
+        self.switch_to_default_content()
+        return t
+    def popUp_Alert_Accept(self):
+        alert = self.driver.switch_to.alert
+        alert.accept()
+        self.switch_to_default_content()
+    def popUp_Alert_dismiss(self):
+        alert = self.driver.switch_to.alert
+        alert.dismiss()
+        self.switch_to_default_content()
+    def popUp_Alert(self,text):
+        alert = self.driver.switch_to.alert
+        alert.send_keys()
+        self.switch_to_default_content(text)
