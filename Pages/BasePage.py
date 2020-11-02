@@ -83,3 +83,14 @@ class BasePage:
         now = datetime.now()
         dt_string = now.strftime("%d%m%y_%H%M%S")
         self.driver.get_screenshot_as_file(dt_string+".png")
+
+    def screenshoth_to_report(self):
+        testName = environment.whoami()
+        screenshotName = testName + "_screenshot_" + currTime
+        # save screenshot in allure
+        allure.attach(driver.get_screenshot_as_png(), name=screenshotName,
+                      attachment_type=allure.attachment_type.PNG)
+        # to get the file on specific path
+        driver.get_screenshot_as_file(
+            "C:/Users/jorge/Desktop/Work/Code/Mine/Python/PythonAutomationFramework/screenshots/" +
+            screenshotName + ".png")
