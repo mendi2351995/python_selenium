@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite errors="0" failures="0" hostname="DESKTOP-4RE4BPK" name="pytest" skipped="0" tests="3" time="16.224" timestamp="2020-11-03T18:18:18.154206">
+        <testcase classname="Tests.test_Home_page.Test_HomePage" name="test_check_titlePage[chrome]" time="5.188" />
+        <testcase classname="Tests.test_Home_page.Test_HomePage" name="test_check_clickButton_Go[chrome]" time="0.208" />
+        <testcase classname="Tests.test_Home_page.Test_HomePage" name="test_drop_down[chrome]" time="10.609" /></testsuite></testsuites>

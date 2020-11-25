@@ -30,8 +30,11 @@ class HomePage(BasePage):
     def click_on_element_with_wait(self):
         self.fluentWait_click(self.BUTTON_GO)
 
-    def aa(self):
+    def select_on_one_element(self):
         element = self.driver.find_element(*self.DROP_DWON)
         self.multiselect_set_selections(element,"-")
         # selct = Select(element)
         # selct.deselect_by_visible_text('-')
+    def screenshoth_to_reporta(self):
+        self.screenshoth_to_report("HomePage")
+

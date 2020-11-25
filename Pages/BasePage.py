@@ -3,6 +3,9 @@ from selenium.webdriver.remote.webelement import WebElement
 import time
 from datetime import date
 from datetime import datetime
+import allure
+from selenium.webdriver.common.action_chains import ActionChains
+from retry import retry
 '''imports stof for  function flouentWait: start'''
 
 from selenium import webdriver
@@ -79,18 +82,23 @@ class BasePage:
         alert.send_keys()
         self.switch_to_default_content(text)
 
+    #@retry is = back on function if is faile and try onse more and exption 'TypeError'
+    @retry(Exception, delay=1)
     def Screenshot(self):
         now = datetime.now()
         dt_string = now.strftime("%d%m%y_%H%M%S")
         self.driver.get_screenshot_as_file(dt_string+".png")
 
-    def screenshoth_to_report(self):
-        testName = environment.whoami()
+    def screenshoth_to_report(self,testName):
+        now = datetime.now()
+        currTime = now.strftime("%d%m%y_%H%M%S")
+        # currTime = moment.now().strftime("%d-%m-%Y_%H-%M-%S")
         screenshotName = testName + "_screenshot_" + currTime
         # save screenshot in allure
-        allure.attach(driver.get_screenshot_as_png(), name=screenshotName,
+        allure.attach(self.driver.get_screenshot_as_png(), name=screenshotName,
                       attachment_type=allure.attachment_type.PNG)
         # to get the file on specific path
-        driver.get_screenshot_as_file(
-            "C:/Users/jorge/Desktop/Work/Code/Mine/Python/PythonAutomationFramework/screenshots/" +
+        self.driver.get_screenshot_as_file(
+            "C:\\Users\\David\\Desktop\\python_projects\\basic_project_automation\\screenshots" +
             screenshotName + ".png")
+#======================================

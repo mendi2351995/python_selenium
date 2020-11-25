@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 from time import sleep
+import allure
 from Config.config import TestData
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
@@ -25,5 +26,5 @@ def init_driver(request):
     request.cls.driver.get(TestData.BASE_URL)
     #web_driver.implicitly_wait(15)
     yield
-    sleep(10)
+    sleep(5)
     web_driver.close()
